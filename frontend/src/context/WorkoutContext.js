@@ -1,14 +1,14 @@
-// import React from 'react'
-// import {createContext} from 'react';
+import React from 'react'
+import {createContext} from 'react';
 
-// export const workoutsContext = createContext({children});
+export const WorkoutsContext = createContext();
 
-// const WorkoutsContextProvider= ()=>{
+ export const WorkoutsContextProvider = ({children})=>{
 
-//   return(
-//     <WorkoutsContext.Provider>
-//         {children}
-//     </WorkoutsContext.Provider>
-//   )
+  return(
+    <WorkoutsContext.Provider>
+        {children}
+    </WorkoutsContext.Provider>
+  )
 
-// }
+}
